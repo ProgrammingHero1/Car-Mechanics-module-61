@@ -9,7 +9,7 @@ const Service = ({ service }) => {
             <img src={img} alt="" />
             <h3>{name}</h3>
             <h5>Price: {price}</h5>
-            <p>{description}</p>
+            <p className="px-3">{description}</p>
         </div>
     );
 };
